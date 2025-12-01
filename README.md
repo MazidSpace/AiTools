@@ -1,4 +1,4 @@
-# 📌 Mazid AI Image & Video Generator API
+# 📌 AI Image & Video Generator API
 
 A powerful and user-friendly REST API for generating high-quality **AI Images** and **AI Videos** using text prompts. Designed for developers, automation systems, and production-ready AI applications.
 
