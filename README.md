@@ -1,6 +1,6 @@
 # 📌 AI Image & Video Generator API
 
-A powerful and user-friendly REST API for generating high-quality **AI Images** and **AI Videos** using text prompts. Designed for developers, automation systems, and production-ready AI applications.
+A powerful and user-friendly API for generating **AI-based Text Response**, high-quality **AI Images** and **AI Videos** using text prompts. Designed for developers, automation systems, and production-ready AI applications.
 
 ---
 
