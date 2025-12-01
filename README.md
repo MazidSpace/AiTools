@@ -12,7 +12,7 @@ Please do **not** use this API for any illegal activity.
 ## 🚀 Base URL
 
 ```
-https://mazid-image-genrator.vercel.app/
+https://mazid-ai.vercel.app/
 ```
 
 ---
@@ -31,7 +31,39 @@ api_key = MazidSpace
 
 ## 📍 Endpoints
 
-### 1️⃣ Generate AI Image
+### 1️⃣ Generate Ai Response (ChatBot)
+
+```
+GET /GenText
+```
+
+#### Required Parameters
+
+| Parameter | Type   | Required | Description                               |
+| --------- | ------ | -------- | ----------------------------------------- |
+| prompt    | string | Yes      | Your Text query's  |
+| api_key   | string | Yes      | Authentication key                        |
+
+#### Example Request
+
+```
+https://mazid-ai.vercel.app/GenText?prompt=hello how are you&api_key=MazidSpace
+```
+
+#### Response Type
+
+* `json`
+
+#### Example Response
+```
+{
+  "response": "Hey! I'm doing well, thanks for asking. How about you? What's on your mind today?"
+}
+```
+---
+
+
+### 2️⃣ Generate AI Image
 
 ```
 GET /GenImage
@@ -54,7 +86,7 @@ GET /GenImage
 #### Example Request
 
 ```
-https://mazid-image-genrator.vercel.app/GenImage?prompt=beautiful%20anime%20girl&ratio=1:1&api_key=MazidSpace
+https://mazid-ai.vercel.app/GenImage?prompt=beautiful%20anime%20girl&ratio=1:1&api_key=MazidSpace
 ```
 
 #### Response Type
@@ -64,7 +96,7 @@ https://mazid-image-genrator.vercel.app/GenImage?prompt=beautiful%20anime%20girl
 
 ---
 
-### 2️⃣ Generate AI Video
+### 3️⃣ Generate AI Video
 
 ```
 GET /GenVideo
@@ -80,7 +112,7 @@ GET /GenVideo
 #### Example Request
 
 ```
-https://mazid-image-genrator.vercel.app/GenVideo?prompt=cyberpunk%20street%20rainy%20night&api_key=MazidSpace
+https://mazid-ai.vercel.app/GenVideo?prompt=cyberpunk%20street%20rainy%20night&api_key=MazidSpace
 ```
 
 #### Response Type
