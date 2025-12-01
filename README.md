@@ -86,7 +86,7 @@ GET /GenImage
 #### Example Request
 
 ```
-https://mazid-ai.vercel.app/GenImage?prompt=beautiful%20anime%20girl&ratio=1:1&api_key=MazidSpace
+https://mazid-ai.vercel.app/GenImage?prompt=beautiful anime girl&ratio=1:1&api_key=MazidSpace
 ```
 
 #### Response Type
@@ -112,7 +112,7 @@ GET /GenVideo
 #### Example Request
 
 ```
-https://mazid-ai.vercel.app/GenVideo?prompt=cyberpunk%20street%20rainy%20night&api_key=MazidSpace
+https://mazid-ai.vercel.app/GenVideo?prompt=cyberpunk street rainy night&api_key=MazidSpace
 ```
 
 #### Response Type
